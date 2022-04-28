@@ -74,13 +74,13 @@ main section {
 
 }
 
-main section div {
+/* main section div {
     display: flex;
     align-items: flex-end;
     flex-direction: column;
 
 
-}
+} */
 
 main section div h2 {
 
@@ -107,9 +107,7 @@ main section div p {
 
 }
 
-main section div button {
-    margin-right: 117px;
-}
+
 
 .productos {
 
@@ -186,7 +184,7 @@ h1 {
     display: flex;
     line-height: 17.58px;
     justify-content: center;
-    }
+}
 
 .foto p {
 
@@ -204,6 +202,8 @@ h1 {
     flex-direction: column;
     padding-top: 78px;
 }
+
+
 
 .contacto h2 {
 
@@ -253,7 +253,7 @@ h1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 41px 10px 0px 10px;
+    /* margin: 41px 10px 0px 10px; */
 
 
 
@@ -262,7 +262,6 @@ h1 {
 .reset {
     cursor: pointer;
     color: white;
-    margin-left: 280px;
     width: 110px;
     height: 34px;
     left: calc(50% - 110px/2 - 52px);
@@ -270,6 +269,7 @@ h1 {
     border: none;
     background: #8A8787;
     border-radius: 15px;
+
 
 
 }
@@ -283,12 +283,19 @@ h1 {
     border: none;
     background: #F0A83E;
     border-radius: 15px;
-    margin-right: 380px;
+    margin-left: 6px;
+
+
 
 }
 
 .infoenvi {
     font-size: 0px;
+    margin-top: 41px;
+    margin-bottom: 82px;
+
+
+
 }
 
 button:hover {
@@ -297,3 +304,28 @@ button:hover {
     color: black;
 
 }
+
+footer nav{
+display: flex;
+    height: 60px;
+    background-color: #F0A83E;
+
+}
+
+footer nav div:nth-child(1){
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer nav div:nth-child(2){ 
+
+
+
+}
+
+
+
