@@ -17,8 +17,17 @@
                 <p>Grandes ofertas en comederos</p>
             </div>
             <div>
-                <a href=""> Español</a>
-                <a href="">$ARG</a>
+                <select>
+                    <option value="Ing">Español</option>
+                    <option value="Alm">Aleman</option>
+                </select>
+
+                <select name="" id="">
+                    <option value="">ARG$</option>
+                    <option value="">COL$</option>
+
+                </select>
+
             </div>
         </section>
         <nav class="logo">
@@ -39,9 +48,13 @@
                 <h2>¡Es un placer tenerte aquí! </h2>
                 <p>¡Comederos en descuento!</p>
 
-                <button>
-                    COMEDEROS
-                </button>
+
+                <article class="bcomedero">
+                    <button>
+                        COMEDEROS
+                    </button>
+
+                </article>
 
             </div>
 
@@ -88,22 +101,22 @@
 
             <h2>Contáctanos</h2>
 
-            <form action="">
+            <form action="Gracias.html" method="post">
 
-                <input class="datos" placeholder="Nombre y Apellido" type="text">
-                <input class="datos" placeholder="Ingresa tu email" type="text">
-                <input class="datos" placeholder="Telefono" type="text">
+                <!-- post =para enviar los dato de forma oculta -->
+
+                <input class="datos" required placeholder="Nombre y Apellido" type="text" name="Search_query">
+                <input class="datos" required placeholder="Ingresa tu email" type="email" name="Search_query">
+
+                <input class="datos" required placeholder="Telefono" type="number" name="Search_query">
+
+                <div class="infoenvi">
+                    <input class="reset" type="reset" value="Reseterar">
+                    <input class="enviar" type="submit">
+
+                </div>
             </form>
-
-            <div class="infoenvi">
-
-                <button class="reset">Resetear</button>
-                <button class="enviar"> Enviar</button>
-
-            </div>
-
         </section>
-
     </main>
 
     <footer>
@@ -144,10 +157,8 @@
                     <img src="img/Telefono .png" alt="">
 
                     <div>
-
                         <h4>Teléfono</h4>
                         <p>Número de telefono</p>
-
                     </div>
                 </article>
 
@@ -160,15 +171,12 @@
                         <p>Direccion de Correo</p>
 
                     </div>
-
                 </article>
-
             </div>
 
             <div class="logo2">
-               <img src="img/logo2.png" alt="">
+                <img src="img/logo2.png" alt="">
             </div>
-
 
         </Section>
 
@@ -178,9 +186,7 @@
                 Todos los derechos reservados Front End
             </p>
 
-
         </section>
-
 
     </footer>
 </body>

@@ -8,15 +8,12 @@
 
 }
 
-/* h4{
-    
-font-size: 20px;
-font-weight: 700;
-line-height: 23px;
-letter-spacing: 0em;
-/* text-align: left; */
+li {
 
- 
+    cursor: pointer;
+}
+
+
 a {
     color: white;
 }
@@ -65,6 +62,14 @@ nav li {
 
 }
 
+.plato h2 {
+    margin-bottom: 12px;
+}
+
+.plato p {
+    margin-bottom: 12px;
+}
+
 main section button {
     width: 141px;
     height: 49px;
@@ -75,6 +80,21 @@ main section button {
     background: #F0A83E;
     border-radius: 5px;
 
+
+
+}
+
+
+.bcomedero {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 117px;
+}
+
+
+::placeholder {
+    color: white;
+    font-size: 12px;
 }
 
 main section {
@@ -83,13 +103,7 @@ main section {
 
 }
 
-/* main section div {
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
 
-
-} */
 
 main section div h2 {
 
@@ -113,6 +127,8 @@ main section div h2 {
 main section div p {
     color: black;
     margin-right: 95px;
+    display: flex;
+    justify-content: flex-end;
 
 }
 
@@ -163,9 +179,12 @@ h1 {
 
     ul {
 
+
         display: flex;
         flex-direction: column;
     }
+
+
 
 }
 
@@ -224,6 +243,14 @@ h1 {
     margin-bottom: 20px;
 }
 
+select {
+    cursor: pointer;
+    background: black;
+    border: none;
+    color: white;
+
+}
+
 .datos {
     color: white;
     width: 340px;
@@ -232,12 +259,21 @@ h1 {
     top: calc(50% - 40px/2 + 275.5px);
     border: none;
 
+
     background: #3C2313;
     border-radius: 15px;
     margin-bottom: 10px;
 
 
 }
+
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* }  quitarle flechas al input numerico */
+
 
 .contacto form {
 
@@ -344,13 +380,13 @@ footer div input {
     border: none;
 }
 
-footer div  button {
-color: white;
+footer div button {
+    color: white;
     width: 70px;
     height: 34px;
     left: calc(50% - 70px/2 + 430px);
     top: calc(50% - 34px/2 + 575.5px);
- background-color: #3C2313;
+    background-color: #3C2313;
     border-radius: 15px;
     border: none;
     font-size: 9px;
@@ -366,7 +402,7 @@ color: white;
     height: 284px;
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 
@@ -375,33 +411,33 @@ color: white;
     margin-left: 74px;
 }
 
-.localidad{
-display: flex;
-margin-top: 15px;
-align-items: center;
-margin-bottom: 10px;
+.localidad {
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    margin-bottom: 10px;
 
 }
 
-.telefono{
+.telefono {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
 }
 
-.mail{
+.mail {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
 }
 
-.logo2{
+.logo2 {
     display: flex;
     align-items: center;
     margin: 90px 70px 131px 788px;
 }
 
-.derechos{
+.derechos {
     color: white;
     background-color: black;
     display: flex;
